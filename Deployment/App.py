@@ -63,31 +63,31 @@ def main():
     elif choice == "Predictions":
         st.subheader("Bank Churn Prediction")
         
-        creditscore_code = st.number_input("Enter Your Credit Score")
+        creditscore_code = st.number_input("Enter Credit Score")
         
-        geography_class = st.selectbox("Select your Geography", tuple(get_feature_dic("Geography").keys()))
+        geography_class = st.selectbox("Select Geography", tuple(get_feature_dic("Geography").keys()))
         geography_code = get_value(feature_name="Geography",value=geography_class)
         
-        gender_class = st.radio("Select your Gender", tuple(get_feature_dic("Gender").keys()))
+        gender_class = st.radio("Select Gender", tuple(get_feature_dic("Gender").keys()))
         gender_code = get_value(feature_name = "Gender", value = gender_class)
         
-        age_code = st.number_input("Enter Your Age")
+        age_code = st.number_input("Enter Age")
         
-        tenure_code = st.number_input("Specify your tenure ")
+        tenure_code = st.number_input("Specify Tenure ")
         
-        balance_code = st.number_input("Enter Your Balance")
+        balance_code = st.number_input("Enter Balance")
         
-        num_of_product_code = st.number_input("How many products have you purchased ?")
+        num_of_product_code = st.number_input("How many products purchased ?")
         
         
-        hascrcard_class = st.radio("Do you have credit card ?", tuple(get_feature_dic("HasCrCard").keys()))
+        hascrcard_class = st.radio("Does the customer has credit card ?", tuple(get_feature_dic("HasCrCard").keys()))
         hascrcard_code = get_value(feature_name = "HasCrCard", value = hascrcard_class)
         
         
-        isactive_class = st.radio("Are you an active member ?", tuple(get_feature_dic("HasCrCard").keys()))
+        isactive_class = st.radio("Is the customer an active member ?", tuple(get_feature_dic("HasCrCard").keys()))
         isactive_code = get_value(feature_name = "IsActiveMember", value = isactive_class)
         
-        estimatedsalary_code = st.number_input("Whats your estimated salary ?")
+        estimatedsalary_code = st.number_input("Enter estimated salary ?")
         
 
 
@@ -107,7 +107,7 @@ def main():
             preds = load_model(path).predict(single_sample)
                 
             if preds == 0:
-                st.write("No, There is a very low probability")
+                st.write("No, There is a very low probability that the customer will churn")
                         
             elif preds == 1:
                 st.write("Yes, There is high probability that the customer will churn")
