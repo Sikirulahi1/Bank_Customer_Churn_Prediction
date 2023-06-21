@@ -83,6 +83,7 @@ https://docs.google.com/presentation/d/1RHnJjVI3iAGAuNhn4FreS-Ihi64oA1yBdSt6daC5
 - Images - Contains images for the overview and analysis of the file
 - Data - Contains the dataset
 - Deployment - the python motebooks for the app deploymnet
+- Documentation - This contains the documentation of the project
 - Explanatory_Data_Analysis - Contains the analysis of the dataset
 - Model_Training - Contains the python notebooks feature Engineering and Modelling
 
