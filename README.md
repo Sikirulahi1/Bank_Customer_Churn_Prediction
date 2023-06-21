@@ -48,13 +48,35 @@ https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
 - Exited: It is a categorical variable that decides whether the customer left the bank within six months or not. It can take two values 0=No ( Customer did not leave the bank ) 1=Yes ( Customer left the bank )
 
 ## Data Preprocessing:
-RowNumber, CustomerId and Surname were dropped because they were unique for every customer and don't add value to our target variable.
+- RowNumber, CustomerId and Surname were dropped because they were unique for every customer and don't add value to our target variable.
+- 
+- Using SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance in target variable.
+
+## Modelling
+We built different algorithms, such as
+
+- Logistic Regression,
+- KNeighbors
+- Decision Tree
+- Random Forest,
+- XGBoost and
+- Support Vector Machines,
+- And compared their metrics.
 
 ## Model selected for the project:
 XGBoost
 
 ## Model Deployment:
 Streamlit was used to deploy the model
+
+## Dashboard link (tableau)
+https://public.tableau.com/app/profile/emmanuel.oyelola/viz/HamoyeCapstoneProjectBankCustomerChurnDashboard2/Dashboard22
+
+## Colab link (Preprocessing and Modelling)
+https://colab.research.google.com/drive/1XOcz9J_l4P11J3pv3zedMSNty7zMusvs?usp=sharing#scrollTo=77e10b35
+
+## Link to the slides
+https://docs.google.com/presentation/d/1RHnJjVI3iAGAuNhn4FreS-Ihi64oA1yBdSt6daC59ds/edit#slide=id.p20
 
 ## Folders present in the project:
 
