@@ -29,6 +29,8 @@ In this project, we aim to build machine learning models that can accurately pre
 ## Flow of Project:
 Data Sourcing --> Data Preprocessing --> Model Training --> Model Evaluation --> Deployment
 
+## Source of Data:
+https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
 
 ## Feature Description
 - CustomerId: Unique ID which is assigned to each customer
@@ -56,10 +58,10 @@ Streamlit was used to deploy the model
 
 ## Folders present in the project:
 
-Data - Contains the dataset
-Deployment - the python motebooks for the app deploymnet
-EDA - Contains the analysis of the dataset
-Model_Training - Contains the python notebooks feature Engineering and Modelling
+- Data - Contains the dataset
+- Deployment - the python motebooks for the app deploymnet
+- EDA - Contains the analysis of the dataset
+- Model_Training - Contains the python notebooks feature Engineering and Modelling
 
 
 
