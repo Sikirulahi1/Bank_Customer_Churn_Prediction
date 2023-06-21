@@ -17,11 +17,9 @@ In this project, we aim to build machine learning models that can accurately pre
 - Oyelola Emmanuel Akinsola 	
 - Ejiroghene Vivian Okpirikhre	
 - Newton Kimathi		
-- Ibrahim Abdulsalam Abdullahi 	
-- Chukwuebuka Ohaji		
+- Ibrahim Abdulsalam Abdullahi 		
 - Akinbode Afolabi	
 - Chukwuebuka Ohaji	
-- Newton Kimathi	
 - Ganiyu Zainab Ayomide 	
 - Olamileye Clement Duduyemi	
 
